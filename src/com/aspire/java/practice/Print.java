@@ -13,6 +13,17 @@ public class Print
 		  }
 		  System.out.println();
 		  System.out.println("xyz");
+		  String s1 = "viraj";
+		  String s2 = "viraj";
+		  
+		  String s3 = new String();
+		  s3 = "viraj";
+		  String s4 = new String("viraj");
+		  
+		  System.out.println(s1);
+		  System.out.println(s2);
+		  System.out.println(s3);
+		  System.out.println(s4);
 	}
 
 }

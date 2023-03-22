@@ -4,7 +4,7 @@ public class OneUpperCase_OneLowerCase
 {
 	public static void main(String[] args) 
 	{
-		String a = "viraj";
+		String a = "viraj pansare";
 		String b = a.toUpperCase();
 		char [] temp = new char[a.length()];
 		
@@ -16,7 +16,7 @@ public class OneUpperCase_OneLowerCase
 			}
 			else
 			{
-				temp[i]=a.charAt(i);
+				temp[i]=a.charAt(i);	
 			}
 		}
 		System.out.println(temp);

@@ -12,6 +12,7 @@ public class Operations_1
 		System.out.println(s1.substring(0, 5));
 		
 		System.out.println(s1+s3+s2);
+		System.out.println(s1.concat(s2));
 		System.out.println(s1.concat(" "+s2));
 		System.out.println(s1.concat(s3.concat(s2)));
 		

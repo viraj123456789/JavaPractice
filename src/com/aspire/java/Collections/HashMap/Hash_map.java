@@ -20,7 +20,7 @@ public class Hash_map
 		System.out.println(hm.containsKey(4));
 		System.out.println(hm.containsValue("ayesha"));
 		hm.remove(1);				System.out.println(hm + ", ");
-//		hm.put(1, "Mahesh");   System.out.println(hm + ", ");
+		hm.put(1, "Mahesh");   System.out.println(hm + ", ");
 		System.out.println(hm.replace(2, "bhagyshri")); System.out.println(hm + ", ");
 		System.out.println(hm.remove(4, "akash"));System.out.println();
 		hm.put(6, "XYZ");  System.out.println(hm + ", ");

@@ -23,7 +23,8 @@ public class Content
 		System.out.println();
 		
 		System.out.println(s1.endsWith(s2));
-		System.out.println(s1.endsWith("re"));  System.out.println();
+		boolean x = s1.toLowerCase().startsWith(s2);System.out.println(x);
+		System.out.println(s1.endsWith("e"));  System.out.println();
 		
 		System.out.println(s1.startsWith(s4));
 		System.out.println(s1.startsWith(s2));

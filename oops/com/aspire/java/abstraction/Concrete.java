@@ -9,7 +9,6 @@ public class Concrete extends Abstract
 		System.out.println("division is =" +(a/b));
 		
 	}
-
 	@Override
 	public void sub() 
 	{
@@ -23,6 +22,7 @@ public class Concrete extends Abstract
 		c.addition();
 		c.Div();
 		c.sub();
+		
 	}
 
 }

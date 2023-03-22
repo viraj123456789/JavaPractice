@@ -2,6 +2,7 @@ package com.aspire.java.Inheriatnce.Single_level;
 
 public class Parent_Single_level 
 {
+	static int a = 50;
 	public void Land()
 	{
 		System.out.println("Land from Parent class");

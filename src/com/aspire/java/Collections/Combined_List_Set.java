@@ -82,7 +82,7 @@ public class Combined_List_Set
 		}
 		for (int j = 0;j<b.length;j++)
 		{
-			ts.add(b[j]);
+			ts1.add(b[j]);
 		}
 		System.out.print(ts + ", ");
 		System.out.println();
